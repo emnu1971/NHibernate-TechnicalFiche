@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{6391B63D-A86D-470D-9A0A-C7E965DB6662}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{059489D2-26F7-4EB4-A6F5-CFAE4B147B2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{D6061E89-826C-4BC8-8707-64E910D35D20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "src\Logic\Logic.csproj", "{D964F259-03E5-4C60-85D4-068B3BE59A26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D964F259-03E5-4C60-85D4-068B3BE59A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D964F259-03E5-4C60-85D4-068B3BE59A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D964F259-03E5-4C60-85D4-068B3BE59A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D964F259-03E5-4C60-85D4-068B3BE59A26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D964F259-03E5-4C60-85D4-068B3BE59A26} = {059489D2-26F7-4EB4-A6F5-CFAE4B147B2B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62831919-7101-4950-ACB2-293051FCFFEB}
+	EndGlobalSection
+EndGlobal
